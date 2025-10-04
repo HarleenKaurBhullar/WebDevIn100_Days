@@ -52,6 +52,7 @@
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
+  color: white !important;
 }
 
 .hero-stats {
@@ -102,7 +103,7 @@
 .section-title {
   font-size: clamp(2rem, 4vw, 2.5rem);
   font-weight: 600;
-  color: var(--text-primary);
+  color: #6366f1 !important;
   margin-bottom: var(--space-md);
 }
 
