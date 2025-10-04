@@ -52,6 +52,7 @@
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
+  color:beige !important;
 }
 
 .hero-stats {
@@ -102,7 +103,7 @@
 .section-title {
   font-size: clamp(2rem, 4vw, 2.5rem);
   font-weight: 600;
-  color: var(--text-primary);
+  color: #4f46e5;
   margin-bottom: var(--space-md);
 }
 
@@ -146,8 +147,9 @@
 }
 
 .mission-card:hover {
-  transform: translateY(-10px);
+  transform: translateY(10px);
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+  background-color: #f7f6f6;
 }
 
 [data-theme="dark"] .mission-card:hover {
@@ -684,6 +686,7 @@
 
   .stat-number {
     font-size: 2rem;
+    color: #4f46e5;
   }
 
   .vision-content {
